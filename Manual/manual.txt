@@ -1,0 +1,89 @@
+Navegacion.
+Usuario--> superadministrator@app.com
+Clave del superusuarios es --> password
+
+1.-config->adminlte
+
+2.-Archivo muy importante hooks--> app->helpers->hooks
+
+
+3.-Permisos a Crear
+read-carnet
+read-usuariosAdmin
+read-card
+read-usuariosSuper
+
+show-usuarios
+update-usuarios
+desactivar-usuarios
+activar-usuarios
+
+
+
+ {{--  $('#guardar').click(function()
+        {
+
+            $('.formulario').on('submit', function(event){
+                event.preventDefault();
+                    $.ajax({
+                    url:"{{ route('usuarios.store') }}",
+                    method:"POST",
+                    data: new FormData(this),
+                    contentType: false,
+                    cache:false,
+                    processData: false,
+                    dataType:"json",
+                    success:function(data)
+                    {
+                    var html = '';
+                    if(data.errors)
+                    {
+                        html = '<div class="alert alert-danger">';
+                        for(var count = 0; count < data.errors.length; count++)
+                        {
+                        html += '<p>' + data.errors[count] + '</p>';
+                        }
+                        html += '</div>';
+                    }
+                    if(data.success)
+                    {
+                        html = '<div class="alert alert-success">' + data.success + '</div>';
+                        window.location.replace("http://localhost/recursos/public/admin/usuarios");
+                    }
+                    $('#resultado').append(html);
+
+                    }
+                    })
+             });
+
+
+  });  //guardar  --}}
+
+  //importar
+
+  php artisan make:import UsersImport --model=User
+
+
+  //pasos de Mejoras.
+
+  1.- cambio de login de email a rfc
+  2.- Todo lo que son las importaciones.
+  3.- Cambio form usuarios alta.
+  4.- Borrado lógico y permanente de los usuarios - relación con registro carnet
+  5.- Cambio carga distrito federal a cdmx
+  6.-Sección estado civil cambia a multiples opciones por importación.
+  7.- Sección hijos cambia a nombre curp y el archivo del curp
+  8.- Cambia Familiares Dependientes.
+  9.-Filtrado de Campos  a mostrar admin.
+  10.- mostrar signo + en databales -> (Detalle)
+  11.- Borrado lógico con cambio de rol (Activado).
+  12.-importar a pdf.
+  13.- Toda la actualización de todos los registros.
+  14.- Rfc es unico.
+  15.- Srguridad update solo el usuario.
+
+
+
+
+//Para los factory
+Incrementar usuarios

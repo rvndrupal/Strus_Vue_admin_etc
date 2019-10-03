@@ -1,0 +1,27 @@
+import-paises,Importaciones,Importar Pais,null,null
+import-carreras,Importaciones,Importar Carreras,null,null
+import-escuelas,Importaciones,Importar Escuelas,null,null
+import-grados,Importaciones,Importar Grados,null,null
+import-titulos,Importaciones,Importar Títulos,null,null
+import-idiomas,Importaciones,Importar Idiomas,null,null
+import-direccionesgenerales,Importaciones,Importar Dirección General,null,null
+import-direccionesareas,Importaciones,Importar Dirección Áreas,null,null
+import-codigos,Importaciones,Importar Códigos,null,null
+import-niveles,Importaciones,Importar Niveles,null,null
+import-estadocivil,Importaciones,Importar Estado Civil,null,null
+import-user,Importaciones,Importar Usuarios,null,null
+read-usuariosAdmin,Usuarios,Ver Usuario Administrador,null,null
+desactivar-usuarios,Usuarios,Desactivar usuario,null,null
+activar-usuarios,Usuarios,Activar usuario,null,null
+desactivar-user,User ,Desactivar usuario,null,null
+activar-user,User ,Activar usuario,null,null
+show-usuarios,Usuarios,Detalle Usuario,null,null
+read-exportar,Usuarios,Exportar Usuarios,null,null
+read-cards,Cards,Busqueda por Card,null,null
+read-pdf,Pdf,Exportar Pdf,null,null
+read-superadmin,Ver SuperAdmin,Ver superadmin,null,null
+read-alta,Asignar,Rol Alta,null,null
+
+
+
+

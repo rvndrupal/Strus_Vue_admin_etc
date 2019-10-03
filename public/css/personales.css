@@ -1,0 +1,49 @@
+.label-danger {
+    color: red;
+    font-size: 16px;
+}
+
+.load{
+    background-image: url("http://localhost/recursos/public/img/per3.png");
+    width: 120px;
+    height: 120px;
+    margin: -36px 0 0 0px;
+    background-position-x: center;
+    border-radius: 100px;
+}
+.previo{
+    margin: -36px 0 0 0px;
+    border: 3px solid #00000057;
+    border-radius: 100px;
+}
+
+.foto {
+    margin: 19px 0 26px 17px;
+}
+
+.rfc, .curp{
+    margin: 30px 0 31px -24px;
+}
+
+.foto_tex{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.text2 {
+    margin: 0 0 0 -18px;
+}
+
+.dom {
+    margin: -3px 0 0 -70px;
+}
