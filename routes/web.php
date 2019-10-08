@@ -31,6 +31,13 @@ Route::post('/clientes/actualizar', 'ClientesController@update');
 Route::post('/clientes/desactivar', 'ClientesController@desactivar');
 Route::post('/clientes/activar', 'ClientesController@activar');
 
+//dinamicos con vue
+Route::get('/dinamicos', 'DinamicosController@create')->name('dinamicos.create');
+Route::post('/dinamicos/store', 'DinamicosController@store')->name('dinamicos.store');
+
+Route::get('/dinamicosdos', 'DinamicosdosController@create')->name('dinamicosdos.create');
+Route::post('/dinamicosdos/store', 'DinamicosdosController@store')->name('dinamicosdos.store');
+
 
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {

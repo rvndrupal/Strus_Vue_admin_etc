@@ -589,6 +589,22 @@ return [
                     'icon' => 'plus-circle'
                 ],
 
+                [
+                    'text' => 'Dinamicos',
+                    'url'  => '/dinamicos',
+                    'permission'  => 'read-clientes',
+                    // 'permission'  => 'read-usuariosSuper',
+                    'icon' => 'list'
+                ],
+
+                [
+                    'text' => 'Dinamicos Dos',
+                    'url'  => '/dinamicosdos',
+                    'permission'  => 'read-clientes',
+                    // 'permission'  => 'read-usuariosSuper',
+                    'icon' => 'list'
+                ],
+
 
             ],
         ],

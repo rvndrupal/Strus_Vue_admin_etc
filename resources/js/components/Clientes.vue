@@ -143,7 +143,12 @@
                 <!-- /.modal-dialog -->
             </div>
             <!--Fin del modal-->
+
+
+
+
         </main>
+
 </template>
 
 <script>
@@ -395,7 +400,10 @@
             this.listarClientes(1,this.buscar,this.criterio);
         }
     }
+
+
 </script>
+
 <style>
     .modal-content{
         width: 100% !important;
@@ -416,3 +424,5 @@
         font-weight: bold;
     }
 </style>
+
+

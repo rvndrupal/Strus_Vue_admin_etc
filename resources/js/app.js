@@ -22,6 +22,8 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('clientes', require('./components/Clientes.vue').default);
+Vue.component('dinamicos', require('./components/Dinamicos.vue').default);
+Vue.component('dinamicosdos', require('./components/Dinamicosdos.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -32,7 +34,7 @@ Vue.component('clientes', require('./components/Clientes.vue').default);
 const app = new Vue({
     el: '#app',
     data :{
-        menu : 0,
+        menu : 2,
         ruta: 'http://localhost/laravel_vuejs/public'
     }
 });

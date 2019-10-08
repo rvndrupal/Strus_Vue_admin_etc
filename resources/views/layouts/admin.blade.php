@@ -52,6 +52,7 @@
 @yield('scripts')
 
 @push('js')
+
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="//cdn.datatables.net/buttons/1.4.2/js/dataTables.buttons.min.js"></script>
@@ -62,6 +63,7 @@
 <script src="//cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
 <script src=" //cdn.datatables.net/buttons/1.4.2/js/buttons.print.min.js"></script>
 <script src="{{ asset('js/app.js') }}"></script> {{-- Para vue --}}
+
 
 
 <script>
